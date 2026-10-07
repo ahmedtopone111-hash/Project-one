@@ -75,6 +75,30 @@ body {
   border: 2px solid #fff;
 }
 
+/*********زرار المود*******/
+#themeBtn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid var(--btn-border);
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+#themeBtn:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
 /**********البرجر منيو ********/
 .navbar-toggle {
   display: none;
