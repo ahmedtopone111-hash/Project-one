@@ -99,6 +99,7 @@ body {
   }
 
   .navbar-container .navbar-menu {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.7rem !important;
@@ -112,8 +113,41 @@ body {
     backdrop-filter:blur(10px);
   }
 
+  .navbar-container .navbar-menu.active {
+    display: flex;
+  }
   .navbar-toggle {
     diplay: block;
     z-index: 999;
   }
+
+  .navbar-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .navbar-toggle.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+.navbar-container .navbar-menu li a {
+font-size: 1.2rem;
+padding: 3px 15px;
+}
+
+
 }
