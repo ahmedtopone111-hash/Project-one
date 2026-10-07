@@ -65,7 +65,7 @@ body {
   font-family: Arial, sans-serif;
   border: 2px solid transparent;
   border-radius: 20px;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
   white-space: nowrap;
 }
 
@@ -92,6 +92,8 @@ body {
   background: #fff;
   transition: all 0.3s ease-in-out;
 }
+
+/*******الميديا كوايرز ********/
 
 @media (max-width: 880px) {
   .navbar {
