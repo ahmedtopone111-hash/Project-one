@@ -14,8 +14,14 @@ body {
   background-attachment: fixed;
 }
 
+body.light {
+background-color: #121212;
+font-color: white;
+ 
+}
+
 .logo span {
-  color: black;
+  color: white;
 }
 
 .navbar {
