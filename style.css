@@ -117,7 +117,7 @@ body {
     display: flex;
   }
   .navbar-toggle {
-    diplay: block;
+    display: block;
     z-index: 999;
   }
 
