@@ -7,7 +7,7 @@
 body {
   font-family: "jost", serif;
   min-height: 100vh;
-  background-color: #80ff79;
+  background-color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,9 +19,6 @@ background-color: #121212;
 font-color: white;
 }
 
-.fa-solid fa-moon {
-  color: gold;
-}
 
 .logo span {
   color: white;
@@ -91,7 +88,7 @@ font-color: white;
   border-radius: 50%;
   border: 1px solid var(--btn-border);
   background: var(--btn-bg);
-  color: var(--btn-color);
+  color:gold;
   cursor: pointer;
   display: flex;
   align-items: center;
