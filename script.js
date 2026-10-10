@@ -1,3 +1,4 @@
+const themeBtn = document.getElementById("themeBtn");
 const navbarToggle = document.querySelector('.navbar-toggle');
 const navbarMenu = document.querySelector('.navbar-menu');
 
