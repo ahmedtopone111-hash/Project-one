@@ -81,25 +81,39 @@ color: gray;
   border: 2px solid #fff;
 }
 
-/*********زرار المود*******/
+
+
+/********* زرار المود المعادل ********/
 #themeBtn {
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
-  border: 1px solid var(--btn-border);
-  background: blue;
-  color:red;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2); /* خلفية شبه شفافة تناسب الـ Navbar */
+  color: #fff; /* لون الأيقونة أبيض */
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  backdrop-filter: blur(5px);
   transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #themeBtn:hover {
-  transform: scale(1.05);
+  transform: scale(1.1) rotate(15deg); /* تكبير مع لفة خفيفة عند الـ Hover */
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* تعديل شكل الزرار لما يفعل الوضع الفاتح */
+body.light #themeBtn {
+  background: rgba(0, 0, 0, 0.1);
+  color: #222; /* لون الأيقونة داكن */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 
 
 
