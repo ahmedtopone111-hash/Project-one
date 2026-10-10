@@ -15,8 +15,8 @@ body {
 }
 
 body.light {
-background-color: #121212;
-font-color: white;
+background-color: linear-gradient(to right, #8a2387, #e94057, #f27121);
+font-color: black;
 }
 
 
@@ -50,7 +50,7 @@ font-color: white;
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #dbb718;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
