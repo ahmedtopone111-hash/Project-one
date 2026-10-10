@@ -7,7 +7,7 @@
 body {
   font-family: "jost", serif;
   min-height: 100vh;
-  background-color: linear-gradient(to right, #b438ed, #e94057, #f27121);
+  background: linear-gradient(to right, #b438ed, #e94057, #f27121);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,8 +15,8 @@ body {
 }
 
 body.light {
-background-color: linear-gradient(to right, #8a2387, #3847ed, #070707);
-font-color: black;
+background: linear-gradient(to right, #8a2387, #3847ed, #070707);
+color: gray;
 }
 
 
